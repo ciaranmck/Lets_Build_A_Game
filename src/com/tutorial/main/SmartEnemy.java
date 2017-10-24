@@ -9,7 +9,7 @@ public class SmartEnemy extends GameObject{
 	private Handler handler;
 	private GameObject player;
 
-	public SmartEnemy(int x, int y, ID id, Handler handler) {
+	public SmartEnemy(float x, float y, ID id, Handler handler) {
 		super(x, y, id);
 		this.handler = handler;
 		

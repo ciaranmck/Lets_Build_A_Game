@@ -24,11 +24,11 @@ public class Spawn {
 			
 			if(hud.getLevel() == 2){
 				handler.addObject(new BasicEnemy(r.nextInt(Game.WIDTH), r.nextInt(Game.HEIGHT), ID.BasicEnemy, handler));
-			}else if(hud.getLevel() == 5){
+			}else if(hud.getLevel() == 3){
 				handler.addObject(new BasicEnemy(r.nextInt(Game.WIDTH), r.nextInt(Game.HEIGHT), ID.BasicEnemy, handler));
-			}else if(hud.getLevel() == 10){
+			}else if(hud.getLevel() == 6){
 				handler.addObject(new FastEnemy(r.nextInt(Game.WIDTH), r.nextInt(Game.HEIGHT), ID.FastEnemy, handler));
-			}else if(hud.getLevel() == 20){
+			}else if(hud.getLevel() == 9){
 				handler.addObject(new SmartEnemy(r.nextInt(Game.WIDTH), r.nextInt(Game.HEIGHT), ID.SmartEnemy, handler));
 			}
 		}
